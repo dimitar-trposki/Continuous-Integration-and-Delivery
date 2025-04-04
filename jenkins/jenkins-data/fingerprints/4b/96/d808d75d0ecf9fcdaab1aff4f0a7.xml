@@ -5,8 +5,12 @@
   <fileName>Credential id=GitHub name=dimitar-trposki/****** (GitHub credentials for dimitar-trposki)</fileName>
   <usages>
     <entry>
+      <string>Continuous-Integration-and-Delivery/master</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
       <string>KIII-Exercise-2</string>
-      <ranges>14-19</ranges>
+      <ranges>14-30</ranges>
     </entry>
   </usages>
   <facets/>
