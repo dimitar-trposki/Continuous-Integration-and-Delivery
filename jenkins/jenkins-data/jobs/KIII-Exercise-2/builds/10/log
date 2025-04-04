@@ -1,0 +1,31 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/KIII-Exercise-2
+The recommended git tool is: NONE
+using credential GitHub
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/KIII-Exercise-2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/dimitar-trposki/Continuous-Integration-and-Delivery # timeout=10
+Fetching upstream changes from https://github.com/dimitar-trposki/Continuous-Integration-and-Delivery
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials GitHub credentials for dimitar-trposki
+ > git fetch --tags --force --progress -- https://github.com/dimitar-trposki/Continuous-Integration-and-Delivery +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/develop
+Seen branch in repository origin/master
+Seen branch in repository origin/production
+Seen branch in repository origin/test
+Seen 4 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 21a962c6b7216adbb3a30884eeccbbf41562d823 (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 21a962c6b7216adbb3a30884eeccbbf41562d823 # timeout=10
+Commit message: "Made changes"
+ > git rev-list --no-walk 21a962c6b7216adbb3a30884eeccbbf41562d823 # timeout=10
+[KIII-Exercise-2] $ /bin/sh -xe /tmp/jenkins1756326063020581206.sh
++ ls -l
+total 0
+drwxr-xr-x 1 jenkins jenkins 4096 Apr  4 17:53 HW1
+-rw-r--r-- 1 jenkins jenkins   37 Apr  4 17:53 README.md
+drwxr-xr-x 1 jenkins jenkins 4096 Apr  4 17:54 jenkins
+Finished: SUCCESS

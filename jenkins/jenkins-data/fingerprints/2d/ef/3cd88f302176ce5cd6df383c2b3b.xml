@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-04-04 17:53:00.161 UTC</timestamp>
+  <md5sum>2def3cd88f302176ce5cd6df383c2b3b</md5sum>
+  <fileName>Credential id=GitHub name=dimitar-trposki/****** (GitHub credentials for dimitar-trposki)</fileName>
+  <usages>
+    <entry>
+      <string>KIII-Exercise-2</string>
+      <ranges>1-13</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
